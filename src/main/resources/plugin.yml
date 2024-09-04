@@ -1,0 +1,9 @@
+name: IchimonjiPlugin
+version: 1.0
+main: me.moonglares.ichimonji.IchimonjiPlugin
+commands:
+  ichimonji:
+    description: Enables, disables, or resets the ability to craft Ichimonji.
+    usage: /ichimonji <enable|disable|reset>
+    permission: ichimonji.admin
+    permission-message: You do not have permission to execute this command.
